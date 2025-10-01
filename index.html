@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Duelo de los Tronos</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="hood" id="hood">
+        <div class="hood-content">
+            <h1>EL DUELO DE LOS TRONOS</h1>
+            <h2>El Juego de Damas Medieval</h2>
+            <p>En el reino de las sombras, dos casas se enfrentan por el control del tablero. 
+               Tus decisiones determinarán quién se alzará con el trono.</p>
+            
+            <h2>Reglas del Duelo</h2>
+            <ul>
+                <li>Las fichas solo se mueven en diagonal hacia adelante</li>
+                <li>Las capturas son obligatorias cuando están disponibles</li>
+                <li>Las fichas que llegan al otro extremo del tablero se convierten en Reyes</li>
+                <li>Los Reyes pueden moverse y capturar en cualquier dirección diagonal</li>
+                <li>Gana el jugador que capture todas las fichas del oponente</li>
+            </ul>
+            
+            <button class="start-button" id="startButton">Comenzar el Duelo</button>
+        </div>
+    </div>
+    
+    <h1>EL DUELO DE LOS TRONOS</h1>
+    
+    <div class="game-container" id="gameContainer">
+        <div class="status" id="status">Tu turno (Caballeros Blancos)</div>
+        
+        <div class="board" id="board">
+            <!-- El tablero se genera con JavaScript -->
+        </div>
+        
+        <div class="controls">
+            <button id="restart">Reiniciar Duelo</button>
+        </div>
+    </div>
+    
+    <div class="rules">
+        <h2>Reglas del Duelo</h2>
+        <ul>
+            <li>Las fichas solo se mueven en diagonal hacia adelante</li>
+            <li>Las capturas son obligatorias cuando están disponibles</li>
+            <li>Las fichas que llegan al otro extremo del tablero se convierten en Reyes</li>
+            <li>Los Reyes pueden moverse y capturar en cualquier dirección diagonal</li>
+            <li>Gana el jugador que capture todas las fichas del oponente</li>
+        </ul>
+    </div>
+
+    <script src="./js/game.js"></script>
+</body>
+</html>
